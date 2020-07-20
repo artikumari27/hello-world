@@ -5,7 +5,7 @@ app.set('port', (process.env.AIRWAVE_HW_PORT || 5000))
 app.use(express.static(__dirname + '/app'))
 
 app.get('/', function(request, response) {
-  response.send('Hello World!')
+  response.send('Welcome to Gitops World!')
 })
 
 app.listen(app.get('port'), function() {
